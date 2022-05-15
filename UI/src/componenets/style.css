@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  min-height: 100vh;
+  border-bottom: #1180ff solid 2px;
+  background-color: white;
+}
+
+.nav{
+  background-color: #1180ff;
+  height: 100%;
+  border-bottom: black solid 3px;
+}
+
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 32px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  justify-content: space-between;
+}
+
+.blog-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+}
+
+.blog-canvas{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.posts-title{
+  font-size: 48px;
+  text-decoration: underline;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  justify-self: center;
+}
+
+.card{
+  background-color: white;
+  border: solid #1180ff 4px;
+  border-radius: 1%;
+  padding: 10px;
+  margin-bottom: 20px;
+  
+}
+
+.card-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn{
+  padding: 10px 20px;
+  border-radius: 2%;
+  display: inline-block;
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+.edit-btn{
+  background-color: #6693c6;
+}
+
+.edit-btn:hover{
+  background-color: #9bc0ea
+}
+
+.delete-btn{
+  background-color: #e84c41;
+}
+
+.delete-btn:hover{
+  background-color: #eb8179;
+}
+
+.new-btn{
+  background-color: green;
+  display: inline-block;
+  justify-self: flex-end;
+}
+
+pre{
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.form-edit{
+  padding: 30px;
+  width: 100%;
+}
+
+.input-edit{
+  display: block;
+  width: 40%;
+  height: 40px;
+  font-size: 22px;
+  font-family: Roboto, sans-serif;
+}
+
+.text-area-edit{
+  display: block;
+  width: 100%;
+  height: 50vh;
+  font-size: 22px;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 10px;
+}
+
+label{
+  font-size: 40px;
+  margin-top: 20px;
+  display: inline-block;
+  margin-bottom: 5px;
+  font-family: Roboto, sans-serif;
+}
+
+.new-post{
+  padding: 20px 15px;
+  position: absolute;
+  right: 0;
+}
+
+pre{
+  white-space: pre-wrap;       
+  white-space: -moz-pre-wrap;  
+  white-space: -pre-wrap;      
+  word-wrap: break-word;       
+}
